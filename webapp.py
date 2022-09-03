@@ -4,9 +4,9 @@ import pdfplumber
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.title("Candidate selection tool")
+st.title("Candidate Selection Tool")
 
-st.subheader("NLP based resume screening")
+st.subheader("NLP Based Resume Screening")
 
 st.caption("Aim of this project is to check whether a candidate is qualified for a role based his or her education, experience, and other information captured on their resume. In a nutshell, it's a form of pattern matching between a job's requirements and the qualifications of a candidate based on their resume.")
 
@@ -58,5 +58,4 @@ if click:
     match = round(match,2)
     st.write("Match Percentage: ",match,"%")
 
-
-
+st.caption(" ~ made by siddhraj")
